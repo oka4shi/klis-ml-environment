@@ -3,6 +3,7 @@ RUN conda install jupyter
 RUN conda install jupyterlab
 RUN conda install pandas
 RUN conda install matplotlib
+RUN conda install cvxopt
 
 RUN apt-get update && apt-get install -y \
     fonts-ipaexfont-gothic \
